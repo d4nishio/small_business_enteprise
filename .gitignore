@@ -1,0 +1,41 @@
+# Visual Studio system folders
+.vs/
+.vscode/
+bin/
+obj/
+TestResults/
+build/
+[Bb]uild/
+[Ll]ogs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Others
+*.log
+*.tlog
+*.pdb
+*.cache
+*.dbmdl
+
+# Compiled DLLs and packages
+*.dll
+*.exe
+*.nupkg
+packages/
+
+# Backup & temporary files
+*.tmp
+*.bak
+*.backup
+~$*
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Rider IDE files (if you ever use it)
+.idea/
