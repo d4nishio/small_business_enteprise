@@ -12,7 +12,7 @@
 #include "report.h"
 using namespace std;
 
-//hackathon
+//hackathon project
 
 void accountRegistration(); // Function to register new account
 void loginPage(); // Function to log in for user and staff(employee & admin)
@@ -45,7 +45,7 @@ bool checkNumeric(string input); // Function to check input year is numeric
 int main() // main page
 {
     console mainpage;   
-    mainpage.navigation = "\n\t\t\t\t\t\t\t\t\t\t\tWELCOME TO GROCERY STORE HOMEPAGE\n";
+    mainpage.navigation = "\n\t\t\t\t\t\t\t\t\t\t\tWELCOME TO HACKATHON HOMEPAGE\n";
     mainpage.choices("Register");
     mainpage.choices("Login");
     mainpage.choices("Exit");
