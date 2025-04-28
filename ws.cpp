@@ -12,6 +12,8 @@
 #include "report.h"
 using namespace std;
 
+//hackathon
+
 void accountRegistration(); // Function to register new account
 void loginPage(); // Function to log in for user and staff(employee & admin)
 
